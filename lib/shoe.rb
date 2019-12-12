@@ -17,5 +17,6 @@ class Shoe
   
   def unique 
     BRANDS.uniq 
+    BRANDS
   end 
 end
