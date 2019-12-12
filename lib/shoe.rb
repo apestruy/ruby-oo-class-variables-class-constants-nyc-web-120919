@@ -15,13 +15,7 @@ class Shoe
     puts "Your shoe is as good as new!"
   end
   
- # def brand=(brand)
- #     @brand = brand
- # end     
-      
- # def keep_track
- #   BRANDS << brand unless BRANDS.any? do |b|
- #       b == BRANDS
- #   end 
- # end 
+  def unique 
+    BRANDS.uniq 
+  end 
 end
