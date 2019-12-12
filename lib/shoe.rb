@@ -5,6 +5,9 @@ class Shoe
   
   def initialize(brand)
     @brand = brand
+    BRANDS << brand unless BRANDS.any? do |b|
+        b == BRANDS
+    end 
   end
 
   def cobble
@@ -12,7 +15,7 @@ class Shoe
     puts "Your shoe is as good as new!"
   end
   
-  def brand=(brand)
+ # def brand=(brand)
       @brand = brand
   end     
       
