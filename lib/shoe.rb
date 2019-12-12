@@ -16,12 +16,12 @@ class Shoe
   end
   
  # def brand=(brand)
-      @brand = brand
-  end     
+ #     @brand = brand
+ # end     
       
-  def keep_track
-    BRANDS << brand unless BRANDS.any? do |b|
-        b == BRANDS
-    end 
-  end 
+ # def keep_track
+ #   BRANDS << brand unless BRANDS.any? do |b|
+ #       b == BRANDS
+ #   end 
+ # end 
 end
